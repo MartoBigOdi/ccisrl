@@ -7,7 +7,7 @@ related_targets: []
 
 # Surface brief: index.html (Persuade)
 
-Visitor mode: Persuade. Owners and companies deciding whether to ask CCI srl for a quote.
+Visitor mode: Persuade. Owners and companies deciding whether to ask CCI Construcciones S.A.S. for a quote.
 Action: "Pedir presupuesto". Proof: the 56-work portfolio with m2, period, contract and photos; the two architects.
 Constraints: Spanish; small source photos (shown at sizes where they stay sharp); no phones, licence numbers, invented hours or testimonials.
 

@@ -1,4 +1,4 @@
-/* CCI S.R.L.: hormigón visto. Concrete formwork walls, one stone-grey enamel plate (cartel de obra) as the signature. */
+/* CCI Construcciones S.A.S.: hormigón visto. Concrete formwork walls, one stone-grey enamel plate (cartel de obra) as the signature. */
 :root {
   --concrete: #dcdad4;
   --concrete-deep: #cbc9c2;
@@ -321,3 +321,21 @@ p { margin: 0; max-width: 62ch; text-wrap: pretty; }
 
 /* ---------- v2: progress line ---------- */
 .progress { position: absolute; left: 0; bottom: -2px; height: 4px; width: 100%; background: var(--accent); transform: scaleX(0); transform-origin: left; pointer-events: none; }
+
+/* ---------- contact lines, previous work (2026 portfolio) ---------- */
+.person .contact { margin-top: 12px; font-size: 15px; line-height: 1.6; }
+.person .contact a { text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; transition: background-size 300ms var(--ease); overflow-wrap: anywhere; }
+.person .contact a:hover { background-size: 0 1px; background-position: 100% 100%; }
+.previos { grid-column: 1 / -1; margin-top: 8px; padding-top: 28px; border-top: 2px solid var(--line); }
+.previos h3 { font-size: clamp(26px, 2.4vw, 34px); margin-bottom: 8px; }
+.previos__who { font-weight: 600; font-size: 15px; color: var(--muted); margin-bottom: 14px; }
+.previos ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.previos li { padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 16px; }
+.previos li b { font-weight: 700; margin-right: 8px; }
+.previos li span { color: var(--muted); }
+.footer__contact { margin-top: 20px; display: grid; gap: 4px; justify-items: start; color: var(--chalk-muted); }
+.footer__contact a { text-decoration: none; padding: 4px 0; }
+.footer__contact a:hover { color: var(--accent-light); }
+.previos ul { grid-template-columns: 1fr; column-gap: 48px; }
+@media (min-width: 900px) { .previos ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.previos { margin-top: clamp(24px, 3vw, 48px); }
